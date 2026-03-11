@@ -1,11 +1,7 @@
 import { NeuronAgent } from "./agent/neuronAgent"
 
-function main(){
+console.log("Starting Cerebra...")
 
-  const agent = new NeuronAgent()
+const agent = new NeuronAgent()
 
-  agent.start()
-
-}
-
-main()
+agent.start()
