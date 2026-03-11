@@ -14,6 +14,7 @@ export class NeuronAgent {
     }
 
     const knowledge = captureKnowledge(discovery)
+    this.engine.storeMemory(knowledge)
 
     console.log("Agent captured knowledge:", knowledge)
 
