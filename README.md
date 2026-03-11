@@ -54,6 +54,8 @@ cerebra/
 │
 ├ retrieval
 │  └ memory_search.py
+│
+└ main.py
 ```
 
 ⸻
