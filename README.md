@@ -2,7 +2,7 @@
 
 ### Intelligence Layer for Autonomous Agents
 
-Cerebra is an experimental system exploring persistent intelligence for autonomous agents using the **Shelby network**.
+Cerebra is an experimental system exploring persistent intelligence for autonomous agents using **Shelby network**.
 
 The project investigates how agents can capture knowledge, store memory, and retrieve past insights to improve decision-making over time.
 
