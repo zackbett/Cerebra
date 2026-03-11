@@ -39,6 +39,8 @@ Cerebra acts as an intelligence interface between agents and persistent memory i
 ⸻
 
 ## ✦ Core Modules
+
+```
 cerebra/
 ├ core
 │  └ cerebra_engine.py
@@ -52,8 +54,7 @@ cerebra/
 │
 ├ retrieval
 │  └ memory_search.py
-│
-└ main.py
+```
 
 ⸻
  
