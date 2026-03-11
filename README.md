@@ -42,20 +42,22 @@ Cerebra acts as an intelligence interface between agents and persistent memory i
 
 ```
 cerebra/
-├ core
-│  └ cerebra_engine.py
+├ agent/
+│  └ neuronAgent
 │
-├ memory
-│  ├ shelby_client.py
-│  └ memory_store.py
+├ core/
+│  └ cerebraEngine
 │
-├ ingestion
-│  └ knowledge_capture.py
+├ memory/
+│  └ shelbyClient
 │
-├ retrieval
-│  └ memory_search.py
+├ ingestion/
+│  └ knowledgeCapture
 │
-└ main.py
+├ retrieval/
+│  └ memorySearch
+│
+└ index
 ```
 
 ⸻
