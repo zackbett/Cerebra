@@ -1,0 +1,18 @@
+{
+  "name": "cerebra",
+  "version": "0.1.0",
+  "description": "Intelligence layer for autonomous agents using Shelby memory network",
+  "main": "dist/index.js",
+  "scripts": {
+    "agent": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "ai-agents",
+    "autonomous-agents",
+    "memory",
+    "shelby",
+    "web3"
+  ],
+  "author": "majyy",
+  "license": "MIT"
+}
