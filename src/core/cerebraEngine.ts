@@ -1,12 +1,18 @@
-export class ShelbyClient {
+import { ShelbyClient } from "../memory/shelbyClient"
+
+export class CerebraEngine {
+
+  shelby = new ShelbyClient()
 
   constructor(){
-    console.log("Shelby client initialized")
+    console.log("Cerebra engine initialized")
   }
 
-  async store(data:any){
+  storeMemory(entry:any){
 
-    console.log("Sending data to Shelby memory network:", data)
+    console.log("Storing memory:", entry)
+
+    this.shelby.store(entry)
 
   }
 
